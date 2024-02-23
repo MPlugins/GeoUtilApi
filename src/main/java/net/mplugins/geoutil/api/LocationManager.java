@@ -7,12 +7,20 @@ import java.util.UUID;
 
 public interface LocationManager {
     /**
-     * Use this method to get {@link PlayerLocationInformation} from specified player
+     * Use this method to get {@link PlayerLocationInformation} from specified player.
      *
      * @param player the player you want to get location information from
      * @return location information
      */
     PlayerLocationInformation getPlayerInformation(Player player);
+
+    /**
+     * Use this method to get {@link PlayerLocationInformation} from specified player uuid.
+     *
+     * @param player the uuid of the player you want to get location information from
+     * @return location information
+     */
+    PlayerLocationInformation getPlayerInformation(UUID player, String ip);
 
     /**
      * Get all cached {@link PlayerLocationInformation}
