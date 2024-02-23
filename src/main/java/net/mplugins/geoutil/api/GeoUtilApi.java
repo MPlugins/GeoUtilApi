@@ -1,10 +1,14 @@
 package net.mplugins.geoutil.api;
 
+import net.mplugins.geoutil.api.permissions.PermissionHandler;
 import net.mplugins.geoutil.api.statistics.StatisticsManager;
+
+import java.util.Locale;
 
 public final class GeoUtilApi {
     private static LocationManager locationManager;
     private static StatisticsManager statisticsManager;
+    private static PermissionHandler permissionHandler;
 
     private GeoUtilApi() {}
 
@@ -22,5 +26,13 @@ public final class GeoUtilApi {
 
     public static void setStatisticsManager(StatisticsManager statisticsManager) {
         GeoUtilApi.statisticsManager = statisticsManager;
+    }
+
+    public static PermissionHandler getPermissionHandler() {
+        return permissionHandler;
+    }
+
+    public static void setPermissionHandler(PermissionHandler permissionHandler) {
+        GeoUtilApi.permissionHandler = permissionHandler;
     }
 }
