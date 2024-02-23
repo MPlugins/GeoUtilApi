@@ -1,3 +1,5 @@
+<img src="assets/thumbnail.png">
+<br>
 *... still work in progress...*
 
 ## Features
