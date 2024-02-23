@@ -21,6 +21,14 @@ public interface PlayerLocationInformation {
     String getCity();
 
     /**
+     * Depending on the service used to obtain this {@link PlayerLocationInformation} object, accuracy of the region can vary.
+     * The region could be a federal state or similar.
+     *
+     * @return the name of the region
+     */
+    String getRegionName();
+
+    /**
      * This is usually very accurate among all services.
      *
      * @return the name country
