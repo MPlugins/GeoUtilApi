@@ -1,4 +1,4 @@
-package net.mplugins.geoutil;
+package net.mplugins.geoutil.api;
 
 import org.bukkit.entity.Player;
 

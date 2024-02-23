@@ -1,4 +1,4 @@
-package net.mplugins.geoutil.model;
+package net.mplugins.geoutil.api.model;
 
 public interface Country {
     /**

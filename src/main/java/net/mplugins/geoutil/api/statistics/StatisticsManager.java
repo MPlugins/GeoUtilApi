@@ -1,4 +1,4 @@
-package net.mplugins.geoutil.statistics;
+package net.mplugins.geoutil.api.statistics;
 
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;

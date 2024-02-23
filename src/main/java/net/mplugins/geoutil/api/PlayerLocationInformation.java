@@ -1,6 +1,6 @@
-package net.mplugins.geoutil;
+package net.mplugins.geoutil.api;
 
-import net.mplugins.geoutil.model.Country;
+import net.mplugins.geoutil.api.model.Country;
 
 import java.util.UUID;
 
