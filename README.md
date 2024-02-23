@@ -7,6 +7,8 @@
 - 🔒 **Ad targeting:** Get to know your players better by using geographical data to target your players needs the best.
 
 ## API Usage
+While this API is free to use, you still need to buy the plugin to be able to use it. The plugin can be purchased [here](https://builtbybit.com/resources/player-geolocation.39748/) *(not public yet)*
+
 ### Preparation
 Make sure you depend on this API in your `plugin.yml`.
 > File: plugin.yml
