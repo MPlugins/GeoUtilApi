@@ -19,6 +19,27 @@ Make sure you depend on this API in your `plugin.yml`.
 >...
 >```
 
+### Maven
+This is the maven setup. For more information about other build-systems (such as Gradle), visit https://repo.mplugins.net
+```xml
+<repositories>
+    <repository>
+        <id>mplugins-releases</id>
+        <url>https://repo.mplugins.net/releases</url>
+    </repository>
+</repositories>
+```
+```xml
+<dependencies>
+    <dependency>
+        <groupId>net.mplugins</groupId>
+        <artifactId>geoutil-api</artifactId>
+        <version>VERSION_TAG</version> <!-- can be found in 'releases' -->
+        <scope>provided</scope>
+    </dependency>
+</dependencies>
+```
+
 ### Adding a geo-blocked region
 This is how you tell the API to block players from countries by providing the country code of that country:
 
